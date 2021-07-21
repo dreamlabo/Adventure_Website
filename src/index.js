@@ -9,11 +9,14 @@ import Testimonial from "./components/testimonials/Testimonial";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header/>
-    <Hero/>
-    <Destinations/>
-    <Testimonial/>
-    <Footer/>
+
+        <Header/>
+        <Hero/>
+        <Destinations/>
+        <Testimonial/>
+        <Footer/>
+
+
 
   </React.StrictMode>,
   document.getElementById('root')

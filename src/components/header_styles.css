@@ -2,7 +2,83 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Bangers', cursive;
-    font-size: 10px;
-
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-size: 16px;
+    color: black;
 }
+.nav, .h1, .h2, .h3, .h4{
+    padding: 0;
+    margin: 0;
+}
+
+.header-top-container {
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    background-color: #3CC47C;
+}
+
+
+.header-container {
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    background-color: #3CC47C;
+    align-items: center;
+}
+
+.logo-header {
+    text-decoration: none;
+    font-size: 2rem;
+    padding-left: 1.5em;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    order: 0;
+}
+
+.right-side-header-container  {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 3em;
+    width: 100%;
+    list-style-type: none;
+}
+
+.link-header {
+    font-size: 1.5rem;
+    padding-left: .5em;
+    margin: .5em 1em .5em .5em;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.link-header:focus,
+.link-header:hover {
+    color: #E9AC26;
+}
+
+.btn-header {
+    background-color: #E9B952;
+    /*margin: .5em 1em .5em 1em;*/
+    padding: .1em .6em .25em .6em;
+    border-radius: .2em;
+    border: .1em solid #828081;
+    font-size: 1.5rem;
+    white-space: nowrap;
+    justify-content: center;
+}
+
+.btn-header:focus,
+.btn-header:hover {
+    background-color: #e9ac26;
+}
+

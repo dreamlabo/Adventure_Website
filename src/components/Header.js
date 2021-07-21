@@ -1,18 +1,22 @@
 import React, { Fragment } from 'react'
+import './header_styles.css'
 
 const Header = () => {
     return (
-        <div>
-            <header>
-                <a href=""> Adventure Co</a>
-            <a href="">Destinations</a>
-            <a href="">Guides</a>
-            <a href="">About</a>
-            <button>Sign Up</button>
-            </header>
-        </div>
+        <div className="header-top-container">
+            <nav className="header-container" >
+                <a href="" className="logo-header"> Adventure Co</a>
 
+                <div className="right-side-header-container">
+                    <li><a href="#" className="link-header">Destinations</a></li>
+                    <li><a href="#" className="link-header">Guides</a></li>
+                    <li><a href="#" className="link-header">About</a></li>
+                    <li><a className="btn-header" >Sign Up</a></li>
+                </div>
+
+            </nav>
+        </div>
     )
-}
+};
 
 export default Header;
