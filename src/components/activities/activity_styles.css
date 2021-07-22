@@ -1,0 +1,48 @@
+.activity-container {
+    flex-basis: 30%;
+    max-width: 300px;
+
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1em;
+
+   /*transform-style: preserve-3d;*/
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+
+.activity-header {
+    font-size: 2rem;
+    padding: .3em 0;
+}
+
+.activity-description {
+    margin-top: 1em;
+    width: 260px;
+    height: auto;
+    /*border: 2px solid red;*/
+}
+
+.description-container {
+    height: 220px;
+
+}
+
+.button-activity {
+    padding: 0.5rem 2rem;
+    background: none;
+    border: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #585858;
+}
+
+.button-activity:focus,
+.button-activity:hover {
+    color: ghostwhite;
+    background-color: #676767;
+}
