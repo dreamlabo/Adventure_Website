@@ -12,6 +12,7 @@
 }
 
 .header-top-container {
+    z-index: 100;
 
     position: fixed;
 
@@ -28,7 +29,7 @@
     width: 100vw;
     height: 7vh;
     display: flex;
-    background-color: #3CC47C;
+    /*background-color: #3CC47C;*/
     align-items: center;
 }
 
@@ -70,7 +71,7 @@
     background-color: #E9B952;
     /*margin: .5em 1em .5em 1em;*/
     padding: .1em .6em .25em .6em;
-    border-radius: .2em;
+    border-radius: .5em;
     border: .1em solid #828081;
     font-size: 1.5rem;
     white-space: nowrap;

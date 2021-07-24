@@ -7,7 +7,7 @@ import Skier from '../../images/Skier.jpg'
 
 const Activities = () => {
     return(
-        <div>
+        <div className="activities-main-container ">
             <h2 className="activities-header">
                 Activities
             </h2>

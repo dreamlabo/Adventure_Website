@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Activities from "./components/activities/Activities";
 import Footer from "./components/Footer";
-import Testimonial from "./components/testimonials/Testimonial";
+import Testimonials from "./components/testimonials/Testimonials";
 
 
 ReactDOM.render(
@@ -13,7 +13,7 @@ ReactDOM.render(
         <Header/>
         <Hero/>
         <Activities/>
-        <Testimonial/>
+        <Testimonials/>
         <Footer/>
 
 
