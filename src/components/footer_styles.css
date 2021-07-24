@@ -1,0 +1,42 @@
+.footer {
+    background: #3CC47C;
+    color: white;
+
+}
+
+.footer a {
+    text-decoration: none;
+    color: ghostwhite;
+    font-size: 1.2rem;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.footer li  {
+    margin: 1em 1em .5em 1em;
+}
+
+.footer a:focus,
+.footer a:hover{
+    color: #E9B952;
+
+}
+
+.footer-social-media {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    font-size: 3rem;
+
+}
+
+
+.footer-social-media li {
+    margin: .5em 2em 1em 2em;
+
+}
+

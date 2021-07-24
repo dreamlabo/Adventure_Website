@@ -9,7 +9,7 @@ import Reviewer3 from '../../images/Review3.jpg'
 const Testimonials = () => {
     return (
         <section className="testimonials-main-container">
-            <h2 className="testimonials-header" >What Other Adventurers Are Saying</h2>
+            <h2 className="testimonials-header" >What other <span >Adventurers </span> are saying</h2>
             <div className="testimonials-container">
 
                <div className="testimonials-left-side">
@@ -28,7 +28,7 @@ const Testimonials = () => {
 
                    </div>
                    <div className="testimonial test-three">
-                    <TestimonialsIndv reviewer="John Petrucci"
+                    <TestimonialsIndv reviewer="Ana Vidovic"
                                       reviewerImage={Reviewer3}
                     />
                    </div>
