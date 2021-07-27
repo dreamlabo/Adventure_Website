@@ -4,8 +4,6 @@
     display: block;
     width: 620px;
     height: 200px;
-
-
 }
 
 /*.testimonial-inner-container {*/
@@ -41,7 +39,6 @@
     width: 75%;
     /*border: 2px solid black*/
     padding-left: 10px;
-
 }
 
 .testimonial-icon {
@@ -56,9 +53,6 @@
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-
-
-
 }
 
 

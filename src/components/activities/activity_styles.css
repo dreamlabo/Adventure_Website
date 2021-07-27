@@ -31,7 +31,6 @@
 
 .description-container {
     height: 220px;
-
 }
 
 .button-activity {
@@ -48,11 +47,10 @@
 .button-activity:focus,
 .button-activity:hover {
     color: ghostwhite;
-    background-color: #3CC47C;
+    background-color: var(--green);
 }
 
 
 .activity-container:hover {
     transform: translateY(-15px) ;
-
 }

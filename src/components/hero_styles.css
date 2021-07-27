@@ -1,4 +1,10 @@
 
+/*:root {*/
+/*    --green: #3CC47C;*/
+/*    --gold: #E9AC26;*/
+/*    --grey: #828081;*/
+/*}*/
+
 
 .hero-image-container {
     font-family: 'Encode Sans Semi Condensed', sans-serif;
@@ -11,7 +17,7 @@
     background-image:  url('../images/hero_background.jpg');
     background-size: cover;
     /*background-color: #808081;*/
-    background-color: #676767;
+    background-color: var(--grey);
     background-blend-mode: multiply;
     }
 
@@ -38,7 +44,7 @@
 
 .text-highlight {
     /*color: #1E392A;*/
-    color: #3CC47C;
+    color: var(--green);
     font-size: 2.5rem;
     font-weight: bold;
 }
