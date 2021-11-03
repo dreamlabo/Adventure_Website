@@ -7,6 +7,7 @@ I also focused on implementing better semantic HTML.
 
 ## Technologies Used
 * React
+* JavaScript
 * HTML
 * CSS
 
